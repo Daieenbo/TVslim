@@ -6,12 +6,13 @@
 *.7z
 *.rar
 
-# 截图与素材
+# 截图与素材（文档配图例外，见 docs/images/）
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.mp4
+!docs/images/*.png
 
 # 日志与备份
 *.log

@@ -34,6 +34,7 @@ com.pptv.local.mediaplayer,本地播放器,15.4,/system/app,可选,保持,
 com.pptv.tv,OStv,3.3,/system/app,可选,保持,
 com.suning.pptv,银河奇异果 12.7.0,29.5,/data/app,应用,保留,用户自装
 com.xiaodianshi.tv.yst,云视听小电视 1.8.8,22.9,/data/app,应用,保留,用户自装
+bin.mt.plus,MT 管理器 2.26.10,42,/data/app/bin.mt.plus-1,工具,已装(可卸),实测可读写 /mnt/usb/sda1；手机版 UI 需鼠标；内置友盟统计
 com.cvte.tv.api.impl,tvapi-service,1.1,/system/app,厂商服务,保持,CVTE 电视 API
 com.mstar.tv.service,MTvService,,/system/app,厂商服务,保持,MStar 电视服务
 com.mstar.android.providers.tv,MTvProvider,,/system/app,厂商服务,保持,TV Provider
