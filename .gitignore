@@ -1,0 +1,38 @@
+# 二进制 / 大文件不入库
+*.apk
+*.apks
+*.xapk
+*.zip
+*.7z
+*.rar
+
+# 截图与素材
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# 日志与备份
+*.log
+*.bak
+backup/
+*.dump
+
+# adb 私钥 / 环境隔离目录（含 adbkey，绝对不要提交）
+androidhome/
+*.android/
+adbkey
+adbkey.pub
+platform-tools/
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

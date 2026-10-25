@@ -1,0 +1,46 @@
+pkg,label,size_mb,location,category,action,note
+com.pptv.launcher,PPOS 原桌面(LauncherNew),52.5,/data/app/com.pptv.launcher-1 (升级副本;uid=1000),核心,保持启用,唯一声明标准 HOME 类别的应用;禁用会导致 HOME 键失效
+com.pptv.setting,设置,8.2,/system/app,核心,保持启用,唯一系统设置入口
+com.pptv.framework.tvservice,PPOS 框架 tvservice,1.5,/system/app,核心,保持启用,寄宿 Aerial 桌面守护无障碍服务
+com.pptv.local.myapplication,FallbackHome 兜底桌面,5.7,/system/app,核心,保持启用,开机兜底
+com.pptv.lisenceauth,授权校验 PpLisenceAuth,4.9,/system/app,核心,保持启用,上游依赖
+com.sohu.inputmethod.sogou.tv,搜狗输入法,5.0,/system/app,核心,保持启用,输入法
+com.android.systemui,系统界面,4.0,/system/app,核心,保持启用,状态栏/导航
+com.android.webview,WebView 内核,1.4,/system/app,核心,保持启用,
+com.android.bluetooth,蓝牙,1.1,/system/app,核心,保持启用,遥控器配对
+com.mstar.bluetooth3dservice,蓝牙3D服务,,/system/app,核心,保持启用,
+com.pptv.tvhousekeeper,电视管家,6.1,/system/app,入口,保持启用,U 盘安装入口(.myapp.MyAppActivity);禁用后报"您访问的内容找不到了"
+com.pptv.search,搜索,3.5,/system/app,入口,保持启用,应用搜索入口
+com.pptv.screenprotect,ScreenProtect,8.6,/system/app,可禁,已禁用,屏保已换 AerialDream
+com.pptv.guide,PPGuide 导视,15.5,/system/app,可禁,已禁用,Aerial 下无入口
+com.pplive.tvplayer,PPTV 聚精彩,7.9,/system/app,可禁,已禁用,系统分区,卸载不省空间
+com.pptv.newtvad,NewTvAd,8.1,/system/app,广告,已禁用,广告投放 SDK
+com.pptv.tvbuy,聚优购,16.6,/system/app,广告,已禁用,电视购物/下单
+com.pptv.push.service,PushService,1.5,/system/app,广告,已禁用,消息推送通道(也是广告下发通道)
+com.pptv.snisupdate,SnisUpdate,4.9,/system/app,升级,已禁用,静默升级,会把应用装回来
+com.pptv.snisservice,SnisService,3.0,/system/app,升级,已禁用,
+com.pptv.diagnostics,AutoDiagnostics,3.4,/system/app,统计,已禁用,自动诊断上报
+com.pptv.microhelper,电视助手,9.2,/system/app,广告,已禁用,推广位
+com.pptv.terminalmanager,终端管理,1.5,/system/app,远控,已禁用,远端运维+静默安装通道(含 SilentInstallBean/REBOOT/DELETE_PACKAGES)
+com.android.phasebeam,PhaseBeam 动态壁纸,0.1,/system/app,冗余,已禁用,
+com.gelab.devenab,dev-enabler,0.01,/data/app,工具,已卸载,开 ADB 用的第三方工具
+com.juli.dangbeimarket,当贝市场 4.1.2,9.5,/system/app,商店,已禁用,出厂预装;被 6.0.7 取代
+com.dangbeimarket,当贝市场 6.0.7 (613),9.7,/data/app/com.dangbeimarket-1,商店,保留,用户自装,日常使用
+app.orchard.tv,Aerial 桌面 1.47,2.8,/data/app,桌面,已安装,开源替代桌面;guard 变体
+com.hpplay.happyplay.aw,乐播投屏 8.18.38,25.7,/data/app/com.hpplay.happyplay.aw-2,投屏,保留,协议最全但有广告;-1 为旧版孤儿目录已删(165M)
+com.pptv.playhelper,投屏助手,7.8,/system/app,投屏,保留,系统自带;本例推荐优先使用
+com.pptv.usercenter,用户中心,16.0,/system/app,可选,保持,含 hmcinterface/nearbuy/notification/player 子包
+com.pptv.local.mediaplayer,本地播放器,15.4,/system/app,可选,保持,
+com.pptv.tv,OStv,3.3,/system/app,可选,保持,
+com.suning.pptv,银河奇异果 12.7.0,29.5,/data/app,应用,保留,用户自装
+com.xiaodianshi.tv.yst,云视听小电视 1.8.8,22.9,/data/app,应用,保留,用户自装
+com.cvte.tv.api.impl,tvapi-service,1.1,/system/app,厂商服务,保持,CVTE 电视 API
+com.mstar.tv.service,MTvService,,/system/app,厂商服务,保持,MStar 电视服务
+com.mstar.android.providers.tv,MTvProvider,,/system/app,厂商服务,保持,TV Provider
+com.mstar.android.pppoe,PPPoE 拨号,0.03,/system/app,网络,保持,
+com.cvte.tv.hotkey,遥控快捷键 0.6M,0.6,/system/app,厂商服务,保持,
+MTvFactory,Factory Menu,,/system/app,工厂,勿动,工厂菜单
+cvte-ui-factorymenu,Factory Menu(UI),,/system/app,工厂,勿动,
+com.cvte.tv.factory.autotest,cvte-factory-autotest3,,/system/app,工厂,勿动,产线测试
+com.cvte.tpv.factory.at,tpv-factory-at,,/system/app,工厂,勿动,
+MDummyAPK,Dummy,,/system/app,工厂,勿动,占位包
