@@ -16,7 +16,7 @@
 | 广告/推送/升级类系统应用 | ✅ 禁用 9 个（newtvad、tvbuy、push.service、snisupdate、snisservice、diagnostics、microhelper、terminalmanager、phasebeam） |
 | 第三方杂物 | ✅ 卸载 dev-enabler；当贝市场升级到 6.0.7 |
 | 存储 | ✅ /data 已用 **2.0G → 1.4G**，可用 2.6G（净释放约 600M） |
-| 投屏 | ✅ 保留系统自带「投屏助手」（com.pptv.playhelper）；纯免费无广告全协议方案在 Android 5 上**不存在**，结论见 [docs/05](docs/05-投屏与替代方案.md) |
+| 投屏 | ✅ 保留系统自带「投屏助手」（com.pptv.playhelper）；纯免费无广告全协议方案在 Android 5（API 21 / armv7）上**不存在**，用系统投屏助手或接受乐播的广告 |
 | 不可逆操作 | ❌ 无。所有禁用项均可 `pm enable` 恢复 |
 
 ---
@@ -46,7 +46,6 @@
    详见 [docs/03-去开机广告.md](docs/03-去开机广告.md)
 4. **系统精简** — 按 [inventory/精简审核清单-v3-已执行.md](inventory/精简审核清单-v3-已执行.md) 逐项确认后执行 `scripts/debloat.ps1`。
    详见 [docs/04-系统精简.md](docs/04-系统精简.md)
-5. **投屏** — 先看清 [docs/05](docs/05-投屏与替代方案.md) 的现实结论，别浪费时间找"完美软件"。
 
 ---
 
@@ -58,15 +57,14 @@ TVslim/
 ├─ CHANGELOG.md              变更记录
 ├─ credits.md                用到的开源项目、出处与许可
 ├─ LICENSE                   文档 CC BY 4.0 / 脚本 MIT
-├─ .gitignore
+├─ .gitignore / .gitattributes
 ├─ docs/
 │  ├─ 01-环境与连接.md        adb、root、无线调试、Windows 环境变量坑
 │  ├─ 02-桌面替换-Aerial.md    Aerial 原理、两个变体、3 个权限、HOME.CC 陷阱
 │  ├─ 03-去开机广告.md        广告链路逆向、素材目录、开关、备份教训
 │  ├─ 04-系统精简.md          分区账、包分类、执行顺序、三不禁、验证命令
-│  ├─ 05-投屏与替代方案.md     各方案实测/排除理由与最终建议
-│  ├─ 06-命令速查.md          复制粘贴用
-│  └─ 07-回滚与事故记录.md     三次翻车现场与恢复方法
+│  ├─ 05-命令速查.md          复制粘贴用
+│  └─ 06-回滚与事故记录.md     三次翻车现场与恢复方法
 ├─ inventory/
 │  ├─ 精简审核清单-v3-已执行.md  已执行的完整勾选清单（第一手记录）
 │  └─ packages.csv            包名 / 应用名 / 体积 / 位置 / 分类 / 建议

@@ -18,15 +18,15 @@
   /data 已用 2.0G→1.4G。
 - **易用性补丁**：U 盘安装入口恢复（重新启用电视管家 + 搜索），当贝市场从 4.1.2 升级到 6.0.7
   （`com.dangbeimarket`，adb 安装）。
-- **投屏调研**：形成 Android 5 上"免费+无广告+全协议"不可行的结论，给出 A/B/C 三条路线。
+- **投屏调研**：确认 Android 5（API 21 / armv7）上不存在"免费+无广告+全协议"的投屏方案，结论并入 README 成果表。
 
-### 修正（当天回滚的事故，详见 docs/07）
+### 修正（当天回滚的事故，详见 docs/06）
 - `com.pptv.launcher` 禁用后 HOME 键失效 → 撤销禁用。原因：Aerial 只声明 `HOME.CC` 不声明标准 `HOME`。
 - `com.pptv.tvhousekeeper` / `com.pptv.search` 禁用导致 U 盘安装入口失效 → 撤销禁用。
 - 开机广告素材备份命令被 PowerShell 变量展开破坏（复制了整个 launcher 目录到 /data）→ 清理并改用 `adb pull` 备份到电脑。
 
 ### 文档
-- 新增 `docs/01`~`docs/07`、`inventory/packages.csv`、`inventory/精简审核清单-v3-已执行.md`。
+- 新增 `docs/01`~`docs/06`、`inventory/packages.csv`、`inventory/精简审核清单-v3-已执行.md`。
 - 脚本：`connect-tv.ps1`（IP 参数化）、`debloat.ps1`（dry-run + 保护列表 + -Restore）、
   `clean-space.ps1`、`apk_label.py`、`apk_minsdk.py`。
 
